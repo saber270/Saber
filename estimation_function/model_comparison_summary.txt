@@ -1,0 +1,21 @@
+Model Comparison Results
+==================================================
+
+Linear Regression Results:
+Linear model: speed = 86.65 + -0.7581 * load
+MSE: 21.0609, R²: 0.9126
+
+Logistic Function Results:
+Logistic model: speed = 7875888.46 / (1 + exp(--0.0130 * (load - -876.47)))
+MSE: 10.5547, R²: 0.9562
+
+USL Model Results:
+USL model: speed = 102.55 / (1 + 0.0300 * load + -0.0001 * load^2)
+MSE: 1.8724, R²: 0.9922
+
+Summary Table:
+Model        MSE          R²          
+------------------------------------
+Linear       21.0609      0.9126      
+Logistic     10.5547      0.9562      
+USL          1.8724       0.9922      
